@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar .logo  {
+  color: black;
+  font-size: 15pt;
+  font-family: "teko", sans-serif; 
+  text-transform: uppercase;
+}
+.navbar .logo  span{
+    color: #ffa600;
+}
+/*home-inicio*/
+.home {
+    display: flex;
+    background-image: url("../storage/banner/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: "teko", sans-serif; 
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: #ffa600;
+    font-weight: 500;
+}
+
+.home .home-content a {
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #ffa600;
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15pt;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.home .home-content a:hover {
+    border: 2px solid #ffa600;
+    background: transparent;
+    color: #ffa600;
+}
+
+/*sobre*/
+.titulo-about{
+    font-size: 30pt;
+    font-family: 'Teko', sans-serif;
+}
+.paragrafo-about{
+    font-family: 'Teko', sans-serif;
+    color: #ffa600;
+}
+.about-h1{
+    color: #ffa600;
+    font-size: 20pt;
+    font-family: 'Teko', sans-serif;
+}
+.about-btn{
+    background-color: #ffa600;
+    color: white;
+    padding: 8px 8px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.about-btn:hover{
+    background-color: transparent;
+    border: 2px solid #ffa600;
+    color: #ffa600;
+    border-radius: 5px;
+}
+
+#sobre{
+    margin-bottom: 20%;
+}
+
+
+#sobre-segundo{
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
+
+/*projetos*/
+.card-btn{
+    background-color: #ffa600;
+    color: white;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid white;
+    margin-left: 30%;
+    border-radius: 5px;
+}
+
+.card-btn:hover{
+   background-color: transparent;
+   color: #ffa600;
+   border: 2px solid #ffa600;
+   border-radius: 5px;
+}
+
+#projetos i{
+    font-size: 50px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ffa600;
+}
