@@ -16,8 +16,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--script bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <!--font awesome icon-->
     <script src="https://kit.fontawesome.com/3acdfef333.js" crossorigin="anonymous"></script>
 
@@ -26,7 +26,7 @@
 <body>
 
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light rounded" style="box-shadow: 2px 2px 2px #bbb;">
         <a href="#" class="logo" style="text-decoration: none;">Letícia <span>Farias</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10"
             aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,7 @@
                     <a class="nav-link disabled" href="#projetos">Projetos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#especialidades">Especialidade</a>
+                    <a class="nav-link disabled" href="#especialidade">Especialidade</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#contato">Contato</a>
@@ -69,6 +69,12 @@
                     eu sou Desenvolvedora <span>Front-end</span>
                 </div>
                 <a href="#">Contratar-me</a>
+                <div class="redes-sociais">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
             </div>
         </div>
 
@@ -115,7 +121,7 @@
                     meu primeiro site</a>
             </div>
 
-            <div class="col-md-6 text-center " data-aos="fade-left">
+            <div class="col-md-6 text-center mt-3" data-aos="fade-left">
                 <img src="/storage/eu/vitoria.jpg" width="70%" alt="foto-vitoria">
             </div>
 
@@ -134,9 +140,11 @@
                     <i class="fa-brands fa-bootstrap"></i>
                     <div class="card-body">
                         <h5 class="card-title text-center">WPS - Web Planet Site</h5>
-                        <p class="card-text text-center">Esse site é para programadores, foi feito apenas utilizando o framework <span class="text-warning">Bootstrap.</span></p>
+                        <p class="card-text text-center">Esse site é para programadores, foi feito apenas utilizando o
+                            framework <span class="text-warning">Bootstrap.</span></p>
                         <div class="d-flex justify-content-between align-items-center">
-                           <a href="http://wpsplanet.rf.gd/" target="_blank" class="card-btn" style="text-decoration: none;">Ver projeto</a>
+                            <a href="http://wpsplanet.rf.gd/" target="_blank" class="card-btn"
+                                style="text-decoration: none;">Ver projeto</a>
                             <small class="text-muted">Letícia</small>
                         </div>
                     </div>
@@ -149,9 +157,11 @@
                     <i class="fa-solid fa-burger"></i>
                     <div class="card-body">
                         <h5 class="card-title text-center">Bestmeal</h5>
-                        <p class="card-text text-center">Esse projeto foi o meu TCC da escola, é uma lanchonete virtual.</p>
+                        <p class="card-text text-center">Esse projeto foi o meu TCC da escola, é uma lanchonete virtual.
+                        </p>
                         <div class="d-flex justify-content-between align-items-center">
-                           <a href="#" class="card-btn" style="text-decoration: none;">Ver projeto</a>
+                            <a href="http://localhost/TCC_Bestmeal/login_formulario.php" target="_blank"
+                                class="card-btn" style="text-decoration: none;">Ver projeto</a>
                             <small class="text-muted">Letícia</small>
                         </div>
                     </div>
@@ -165,38 +175,174 @@
                         <h5 class="card-title text-center">RC - Couros</h5>
                         <p class="card-text text-center">Loja virtual de vendas de carteiras e pulseiras em couros.</p>
                         <div class="d-flex justify-content-between align-items-center">
-                           <a href="#" class="card-btn" style="text-decoration: none;">Ver projeto</a>
+                            <a href="http://localhost/RC-Couro/" target="_blank" class="card-btn"
+                                style="text-decoration: none;">Ver projeto</a>
                             <small class="text-muted">Letícia</small>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+            <div class="col-md-4 mt-5" data-aos="fade-up">
+                <div class="card mb-4 box-shadow">
+                    <i class="fa-solid fa-tooth"></i>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Borcelle Odontologia</h5>
+                        <p class="card-text text-center">Site de dentista verificando os serviços e reservando
+                            horários.Utilizando apenas <span class="text-warning">SASS</span> sem nenhum framework!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="file:///C:/Users/Robson/Desktop/Portifolio-sass/index.html" target="_blank"
+                                class="card-btn" style="text-decoration: none;">Ver projeto</a>
+                            <small class="text-muted">Letícia</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-5" data-aos="fade-up">
+                <div class="card mb-4 box-shadow">
+                    <i class="fa-brands fa-php"></i>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Sistema Final</h5>
+                        <p class="card-text text-center">Esse é um framework criado em parceria, parte de front-end foi
+                            desenvolvida por mim. Utilizamos <span class="text-warning">estrutura MVC</span></p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="http://localhost/Sistema-final/" target="_blank" class="card-btn"
+                                style="text-decoration: none;">Ver projeto</a>
+                            <small class="text-muted">Letícia</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-5" data-aos="fade-up">
+                <div class="card mb-4 box-shadow">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">My Teacher</h5>
+                        <p class="card-text text-center">Encontre o seu professor perfeito, e já agenda o seu horário.
+                            Lembrando cada horá é uma taxa de pagamento.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" target="_blank" class="card-btn" style="text-decoration: none;">Ver projeto</a>
+                            <small class="text-muted">Letícia</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
-        <!--footer-->
-        <footer class="bg-light text-center text-lg-start">
-            <div class="text-center p-3">
-                © 2020 Copyright:
-                <a class="text-dark" href="#">by - Letícia Farias</a>
+    <!--especialidade-->
+    <div class="container" id="especialidade">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Especialidades</h2>
             </div>
-        </footer>
+             <div class="container">
+                <div class="card-deck mb-3 text-center" >
+                    <div class="card mb-4 box-shadow" data-aos="fadefa-pull-right">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">
+                                <i class="fa-solid fa-palette"></i>
+                                Designer
+                            </h4>
+                        </div>
+                        <div class="card-body specs">
+                            <p class="specs-paragrafo">Desenho a estrutura do site <br>antes de desenvolvê-lo</p>
+                            <h5 class="text-warning">Ferramentas</h5>
+                            <p>Canva apenas</p>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                          <h4 class="my-0 font-weight-normal">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            Front End
+                          </h4>
+                        </div>
+                        <div class="card-body">
+                          <p>Desenvolvimento da parte visual e as interações do seu site</p>
+                          <h5 class="text-warning">Linguagens</h5>
+                          <p>HTML, CSS, SASS, Javascript</p>
+                          <h5 class="text-warning">Ferramentas</h5>
+                          <p>Bootstrap</p>
+                        </div>
+                      </div>
+                    
+                      <div class="card mb-4 box-shadow" data-aos="fadefa-pull-left">
+                        <div class="card-header">
+                          <h4 class="my-0 font-weight-normal">
+                            <i class="fa-solid fa-book"></i>
+                            Estudando
+                          </h4>
+                        </div>
+                        <div class="card-body">
+                         <p>Cursos que ainda não finalizei e estou estudando atualmente</p>
+                         <h5 class="text-warning">Cursos pagos</h5>
+                         <p>Javascript Vanilla, Express, Sequelize, Node Js,
+                            PHP,Estruturas MVC</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <!--scripts-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="/js/bootstrap.js"></script>
-        <!--scripts scroll-->
-        <script src="/js/scroll.js"></script>
-        <script>
-            AOS.init({
-                duration: 1000,
-            });
-        </script>
+    <!--contato-->
+    <div class="container" id="contato">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Fale comigo</h2>
+                <p class="text-center">Para ter mais informações ou enviar uma mensagem, preencha os dados no formulário abaixo:</p>
+            </div>
+        </div>
+    </div>
+    <div class="contato">
+        <form action="">
+            <div class="form-group">
+                <h3>Envie uma mensagem!</h1>
+                <label  class="contato-label">Insira seu nome:</label>
+                <input class="form-control " type="text">
+
+                <label class="mt-3">Insira seu email:</label>
+                <input class="form-control" type="email">
+
+                <label class="mt-3">Insira seu telefone:</label>
+                <input class="form-control" type="tel">
+
+                <label class="mt-3">Insira sua mensagem:</label>
+                <textarea class="form-control" name="" id=""  cols="10" rows="5"></textarea>
+
+                <button class="btn-contato mt-3"> Enviar <i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </form>
+    </div>
+
+    <!--footer-->
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3">
+            © 2020 Copyright:
+            <a class="text-dark" href="#">by - Letícia Farias</a>
+        </div>
+    </footer>
+
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
+    <!--scripts scroll-->
+    <script src="/js/scroll.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
 </body>
 
 </html>

@@ -25,3 +25,20 @@
     }
 }
 
+@media (max-width:768px){
+    .contato{
+        height: 120vh;
+    }
+    .form-group input{
+        width: 90%; 
+    }
+
+    .form-group  textarea{
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media (max-width:400px){
+   
+}
