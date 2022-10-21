@@ -72,7 +72,7 @@
     font-size: 15pt;
     cursor: pointer;
     transition: 0.5s;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .home .home-content a:hover {
@@ -87,7 +87,9 @@
     margin-inline-end: 1rem;
     cursor: pointer;
     transition: all 0.5s;
+
 }
+
 .redes-sociais i:hover{
     color: #ffa600;
     transform: scale(1.2);
